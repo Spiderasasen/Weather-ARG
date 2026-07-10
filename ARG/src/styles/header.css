@@ -1,49 +1,80 @@
 header {
-    background: linear-gradient(135deg, #1e3a8a, #3b82f6);
-    color: white;
-    padding: 1.5rem 2rem;
+    background: #d4d0c8; /* Classic Windows 2000 gray */
+    border-bottom: 2px solid #ffffff;
+    border-top: 2px solid #808080;
+    padding: 10px 20px;
+    font-family: Tahoma, Verdana, sans-serif;
     display: flex;
     flex-direction: column;
     align-items: center;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.25);
 }
 
 header h1 {
-    font-size: 2rem;
-    font-weight: 700;
-    margin-bottom: 1rem;
-    letter-spacing: 1px;
-    text-align: center;
+    margin: 0;
+    padding: 5px 0;
+    font-size: 20px;
+    color: #000;
+    text-shadow: 1px 1px 0 #fff;
 }
 
 nav {
+    margin-top: 10px;
     display: flex;
-    gap: 2rem;
+    gap: 20px;
     list-style: none;
     padding: 0;
 }
 
 nav li {
     list-style: none;
-}
-
-nav a,
-nav li {
-    color: #e0e7ff;
-    font-size: 1.1rem;
-    text-decoration: none;
-    font-weight: 500;
-    transition: 0.2s ease;
+    padding: 3px 6px;
+    background: #e4e2dd;
+    border: 2px solid #808080;
+    border-right-color: #ffffff;
+    border-bottom-color: #ffffff;
     cursor: pointer;
+    font-size: 14px;
+    transition: background 0.1s ease;
 }
 
-nav a:hover,
 nav li:hover {
-    color: #ffffff;
-    transform: translateY(-2px);
+    background: #f0efea;
 }
 
-nav a.active {
+nav a {
+    color: #000;
+    text-decoration: none;
+}
+
+/*Buttons*/
+.btn {
+    padding: 4px 10px;
+    background: #e4e2dd;
+    font-family: Tahoma, Verdana, sans-serif;
+    cursor: pointer;
+
+    /* Raised bevel */
+    border-top: 2px solid #ffffff;
+    border-left: 2px solid #ffffff;
+    border-bottom: 2px solid #808080;
+    border-right: 2px solid #808080;
+
+    text-decoration: none;
+    color: black;
+}
+
+.btn:active {
+    border-top: 2px solid #808080;
+    border-left: 2px solid #808080;
     border-bottom: 2px solid #ffffff;
-    padding-bottom: 2px;
+    border-right: 2px solid #ffffff;
+    background: #d9d7d2;
+}
+
+.btn.active {
+    border-top: 2px solid #808080;
+    border-left: 2px solid #808080;
+    border-bottom: 2px solid #ffffff;
+    border-right: 2px solid #ffffff;
+    background: #d9d7d2;
 }

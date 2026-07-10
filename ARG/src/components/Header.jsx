@@ -7,16 +7,16 @@ function Header() {
             <h1>North Carolina Weather Station</h1>
             <nav>
                 <li>
-                    <NavLink to="/">Home</NavLink>
+                    <NavLink to="/" className="btn">Home</NavLink>
                 </li>
                 <li>
-                    <NavLink to="/faq">FAQ</NavLink>
+                    <NavLink to="/faq" className="btn">FAQ</NavLink>
                 </li>
                 <li>
-                    <NavLink to="/about">About us</NavLink>
+                    <NavLink to="/about" className="btn">About us</NavLink>
                 </li>
                 <li>
-                    <NavLink to="/join">Join Us</NavLink>
+                    <NavLink to="/join" className="btn">Join Us</NavLink>
                 </li>
             </nav>
         </header>
