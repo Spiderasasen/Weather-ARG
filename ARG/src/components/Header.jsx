@@ -10,13 +10,13 @@ function Header() {
                     <NavLink to="/">Home</NavLink>
                 </li>
                 <li>
-                    FAQ
+                    <NavLink to="/faq">FAQ</NavLink>
                 </li>
                 <li>
-                    About us
+                    <NavLink to="/about">About us</NavLink>
                 </li>
                 <li>
-                    Join Us
+                    <NavLink to="/join">Join Us</NavLink>
                 </li>
             </nav>
         </header>
