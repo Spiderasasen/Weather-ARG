@@ -1,0 +1,21 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    background: #e4e2dd;
+}
+
+main {
+    background: #d4d0c8; /* Windows 2000 gray */
+    border-top: 2px solid #ffffff;
+    border-left: 2px solid #ffffff;
+    border-bottom: 2px solid #808080;
+    border-right: 2px solid #808080;
+
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%;
+    min-height: 300px;
+
+    font-family: Tahoma, Verdana, sans-serif;
+    color: #000;
+}
