@@ -11,7 +11,8 @@ export interface Forcast{
 
 export function generateForcast(): Forcast[]{
     const month:number = new Date().getMonth();
-    const profile = climateProfiles[month];
+    const profile = climateProfiles[month + 1];
+    console.log(profile);
 
     if(!profile){
         throw new Error(`No climate profile found for month index ${month}`);

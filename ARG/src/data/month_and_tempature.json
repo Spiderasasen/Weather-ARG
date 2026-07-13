@@ -1,5 +1,136 @@
 {
+  "1": {
+    "monthName": "January",
+    "temps": {
+      "min": 5,
+      "max": 32
+    },
+    "weatherTypes": [
+      "Sunny",
+      "Cloudy",
+      "Snow",
+      "Ice",
+      "Windy"
+    ],
+    "tempModifier": {
+      "Sunny": 0,
+      "Cloudy": -2,
+      "Snow": -15,
+      "Ice": -15,
+      "Windy": -16
+    },
+    "probabilities": {
+      "Sunny": 0.10,
+      "Cloudy": 0.50,
+      "Snow": 0.05,
+      "Ice": 0.25,
+      "Windy": 0.10
+    }
+  },
+  "2": {
+    "monthName": "February",
+    "temps": {
+      "min": 20,
+      "max": 40
+    },
+    "weatherTypes": [
+      "Sunny",
+      "Cloudy",
+      "Snow",
+      "Ice",
+      "Windy",
+      "Rain"
+    ],
+    "tempModifier": {
+      "Sunny": 0,
+      "Cloudy": -2,
+      "Snow": -15,
+      "Ice": -15,
+      "Windy": -16,
+      "Rain": -10
+    },
+    "probabilities": {
+      "Sunny": 0.10,
+      "Cloudy": 0.40,
+      "Snow": 0.05,
+      "Ice": 0.15,
+      "Windy": 0.10,
+      "Rain": 0.20
+    }
+  },
+  "3": {
+    "monthName": "March",
+    "temps": {
+      "min": 35,
+      "max": 55
+    },
+    "weatherTypes": [
+      "Sunny",
+      "Cloudy",
+      "Windy",
+      "Rain"
+    ],
+    "tempModifier": {
+      "Sunny": 0,
+      "Cloudy": -2,
+      "Windy": -10,
+      "Rain": -5
+    },
+    "probabilities": {
+      "Sunny": 0.20,
+      "Cloudy": 0.40,
+      "Windy": 0.20,
+      "Rain": 0.20
+    }
+  },
+  "4": {
+    "monthName": "April",
+    "temps": {
+      "min": 45,
+      "max": 65
+    },
+    "weatherTypes": [
+      "Sunny",
+      "Cloudy",
+      "Windy",
+      "Rain"
+    ],
+    "tempModifier": {
+      "Sunny": 0,
+      "Cloudy": -2,
+      "Windy": -5,
+      "Rain": -5
+    },
+    "probabilities": {
+      "Sunny": 0.40,
+      "Cloudy": 0.20,
+      "Windy": 0.20,
+      "Rain": 0.20
+    }
+  },
   "5": {
+    "monthName": "May",
+    "temps": {
+      "min": 70,
+      "max": 85
+    },
+    "weatherTypes": [
+      "Sunny",
+      "Cloudy",
+      "Rain"
+    ],
+    "tempModifier": {
+      "Sunny": 0,
+      "Cloudy": -2,
+      "Rain": -5
+    },
+    "probabilities": {
+      "Sunny": 0.70,
+      "Cloudy": 0.15,
+      "Rain": 0.05
+    }
+  },
+  "6": {
     "monthName": "June",
     "temps": {
       "min": 82,
@@ -24,7 +155,7 @@
       "Humid": 0.19
     }
   },
-  "6":{
+  "7":{
     "monthName": "July",
     "temps": {
       "min": 89,
@@ -46,7 +177,7 @@
       "Humid": 0.25
     }
   },
-  "7":{
+  "8":{
     "monthName": "August",
     "temps": {
       "min": 88,
@@ -69,6 +200,109 @@
       "Rain": 0.20,
       "Humid": 0.15,
       "Cloudy": 0.15
+    }
+  },
+  "9":{
+    "monthName": "September",
+    "temps": {
+      "min": 75,
+      "max": 85
+    },
+    "weatherTypes": [
+      "Sunny",
+      "Rain",
+      "Humid",
+      "Cloudy",
+      "Windy"
+    ],
+    "tempModifier":{
+      "Sunny": 0,
+      "Rain": -2,
+      "Humid": 3,
+      "Cloudy": -2,
+      "Windy": -2
+    },
+    "probabilities": {
+      "Sunny": 0.50,
+      "Rain": 0.25,
+      "Humid": 0.15,
+      "Cloudy": 0.05,
+      "Windy": 0.05
+    }
+  },
+  "10":{
+    "monthName": "October",
+    "temps": {
+      "min": 65,
+      "max": 75
+    },
+    "weatherTypes": [
+      "Sunny",
+      "Rain",
+      "Windy",
+      "Cloudy"
+    ],
+    "tempModifier":{
+      "Sunny": 0,
+      "Rain": -2,
+      "Windy": -2,
+      "Cloudy": -2
+    },
+    "probabilities": {
+      "Sunny": 0.20,
+      "Rain": 0.25,
+      "Windy": 0.25,
+      "Cloudy": 0.30
+    }
+  },
+  "11":{
+    "monthName": "November",
+    "temps": {
+      "min": 55,
+      "max": 65
+    },
+    "weatherTypes": [
+      "Rain",
+      "Windy",
+      "Cloudy"
+    ],
+    "tempModifier":{
+      "Rain": -5,
+      "Windy": -2,
+      "Cloudy": -2
+    },
+    "probabilities": {
+      "Rain": 0.70,
+      "Windy": 0.15,
+      "Cloudy": 0.15
+    }
+  },
+  "12":{
+    "monthName": "December",
+    "temps": {
+      "min": 45,
+      "max": 55
+    },
+    "weatherTypes": [
+      "Rain",
+      "Windy",
+      "Cloudy",
+      "Snow",
+      "Ice"
+    ],
+    "tempModifier":{
+      "Rain": -5,
+      "Windy": -2,
+      "Snow": -10,
+      "Cloudy": -2,
+      "Ice": -10
+    },
+    "probabilities": {
+      "Rain": 0.15,
+      "Cloudy": 0.10,
+      "Windy": 0.25,
+      "Snow": 0.15,
+      "Ice": 0.35
     }
   }
 }
