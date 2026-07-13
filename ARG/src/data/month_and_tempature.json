@@ -11,6 +11,12 @@
       "Breezy",
       "Humid"
     ],
+    "tempModifier":{
+      "Sunny": 0,
+      "Light Rains": -5,
+      "Breezy": -2,
+      "Humid": 6
+    },
     "probabilities": {
       "Sunny": 0.56,
       "Light Rains": 0.20,
@@ -29,6 +35,11 @@
       "Light Rains",
       "Humid"
     ],
+    "tempModifier":{
+      "Sunny": 0,
+      "Light Rains": -7,
+      "Humid": 10
+    },
     "probabilities": {
       "Sunny": 0.56,
       "Light Rains": 0.19,
@@ -47,6 +58,12 @@
       "Humid",
       "Cloudy"
     ],
+    "tempModifier":{
+      "Sunny": 0,
+      "Rain": -4,
+      "Humid": 5,
+      "Cloudy": -4
+    },
     "probabilities": {
       "Sunny": 0.50,
       "Rain": 0.20,

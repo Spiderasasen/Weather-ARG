@@ -6,6 +6,7 @@ const climateProfiles = month_and_teampature as ClimateProfiles;
 export interface Forcast{
     day: number;
     temp: number;
+    feels: string;
     weather: string;
 }
 
@@ -31,6 +32,12 @@ export function generateForcast(): Forcast[]{
         return profile.weatherTypes[0];
     };
 
+    //adjusted the tempature after the weather is picked
+    const applyModifier = (weather: string, temp: number): number => {
+        const mod = profile.tempModifier[weather] ?? 0;
+        return temp + mod;
+    }
+
     //gets a random temperature of that month
     const pickTemp = (): number => {
         const{min, max} = profile.temps;
@@ -40,10 +47,21 @@ export function generateForcast(): Forcast[]{
     const days: Forcast[] =[];
 
     for(let i = 0; i < 7; i++) {
-        const temp = pickTemp();
+        const baseTemp = pickTemp();
+        const weather = pickWeather();
+        const finalTemp = applyModifier(weather, baseTemp)
+
+        //what we apply to the day
         days.push({
             day: i + 1,
-            temp,
+            temp: finalTemp,
+            feels: weather === "Humid"
+                ? "Sticky Heat"
+                : weather.includes("Rain")
+                ? "Cooler Rain"
+                : weather === "Breesy"
+                ? "Cooler Breeze"
+                : "Normal",
             weather: pickWeather(),
         });
     }
