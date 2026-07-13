@@ -1,0 +1,62 @@
+footer {
+    background: #d4d0c8; /* Classic Windows dialog gray */
+    border-top: 2px solid #ffffff;
+    border-bottom: 2px solid #808080;
+    padding: 15px 0;
+    font-family: Tahoma, Verdana, sans-serif;
+}
+
+.footer-container {
+    max-width: 900px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.footer-container div {
+    background: #e4e2dd;
+    padding: 10px 15px;
+    width: 40%;
+    border-top: 2px solid #ffffff;
+    border-left: 2px solid #ffffff;
+    border-bottom: 2px solid #808080;
+    border-right: 2px solid #808080;
+}
+
+.footer-container p {
+    margin: 0 0 8px 0;
+    font-size: 14px;
+    color: #000;
+}
+
+.footer-container a {
+    display: inline-block;
+    padding: 4px 10px;
+    background: #e4e2dd;
+    text-decoration: none;
+    color: #000;
+
+    /* Raised bevel */
+    border-top: 2px solid #ffffff;
+    border-left: 2px solid #ffffff;
+    border-bottom: 2px solid #808080;
+    border-right: 2px solid #808080;
+
+    font-size: 14px;
+    cursor: pointer;
+}
+
+/* Sunken on click */
+.footer-container a:active {
+    border-top: 2px solid #808080;
+    border-left: 2px solid #808080;
+    border-bottom: 2px solid #ffffff;
+    border-right: 2px solid #ffffff;
+    background: #d9d7d2;
+}
+
+/* Optional hover (still era‑accurate) */
+.footer-container a:hover {
+    background: #f0efea;
+}
