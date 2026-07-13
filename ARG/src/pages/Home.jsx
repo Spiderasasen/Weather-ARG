@@ -1,5 +1,6 @@
 import Header from "../components/Header"
 import {tab_name} from "../util/tab_name"
+import Footer from "../components/Footer"
 
 function Home() {
     tab_name("Home");
@@ -7,6 +8,8 @@ function Home() {
     return (
         <div>
             <Header />
+
+            <Footer />
         </div>
     )
 }
