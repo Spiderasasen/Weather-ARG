@@ -6,7 +6,6 @@ const climateProfiles = month_and_teampature as ClimateProfiles;
 export interface Forcast{
     day: number;
     temp: number;
-    feels: string;
     weather: string;
 }
 
@@ -45,10 +44,8 @@ export function generateForcast(): Forcast[]{
         days.push({
             day: i + 1,
             temp,
-            feels: temp < profile.coolThreshold ? "Cooler than Normal" : "Typical Heat",
             weather: pickWeather(),
         });
-        return days;
     }
-
+    return days;
 }

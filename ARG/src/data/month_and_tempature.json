@@ -5,14 +5,13 @@
       "min": 82,
       "max": 95
     },
-    "coolThreshold": 87,
     "weatherTypes": [
       "Sunny",
       "Light Rains",
       "Breezy",
       "Humid"
     ],
-    "possibilities": {
+    "probabilities": {
       "Sunny": 0.56,
       "Light Rains": 0.20,
       "Breezy": 0.05,
@@ -25,13 +24,12 @@
       "min": 89,
       "max": 104
     },
-    "coolThreshold": 90,
     "weatherTypes": [
       "Sunny",
       "Light Rains",
       "Humid"
     ],
-    "possibilities": {
+    "probabilities": {
       "Sunny": 0.56,
       "Light Rains": 0.19,
       "Humid": 0.25
@@ -43,14 +41,13 @@
       "min": 88,
       "max": 99
     },
-    "coolThreshold": 89,
     "weatherTypes": [
       "Sunny",
       "Rain",
       "Humid",
       "Cloudy"
     ],
-    "possibilities": {
+    "probabilities": {
       "Sunny": 0.50,
       "Rain": 0.20,
       "Humid": 0.15,
