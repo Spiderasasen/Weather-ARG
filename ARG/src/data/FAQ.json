@@ -1,0 +1,52 @@
+[
+  {
+    "id": 1,
+    "question": "How do I use the app?",
+    "answer": "Simply look at our weather forcast and that's all! We are considered the simplest app to use for weather forecasts!"
+  },
+  {
+    "id": 2,
+    "question": "Why is it hot outside?",
+    "answer": "Because its summer! We recommend going outside and enjoying it via a pool and a beer in hand!"
+  },
+  {
+    "id": 3,
+    "question": "What is the average temperature this week?",
+    "answer": "The Average temperature is located under the 7 day forcast!"
+  },
+  {
+    "id": 4,
+    "question": "What is the best time to go outside?",
+    "answer": "The best time to go outside is during the summer! But anytime is fine!"
+  },
+  {
+    "id": 5,
+    "question": "Is it safe to go outside?",
+    "answer": "Its always safe to go outside!"
+  },
+  {
+    "id": 6,
+    "question": "Who is that person outside in the winter?",
+    "answer": "We don't know who that person is and if they are a threat we recommend to call emergency services at 911"
+  },
+  {
+    "id": 7,
+    "question": "How do I join yall?",
+    "answer": "We are always looking for new members to join us! please click the \"Join Us\" and fill out the form!"
+  },
+  {
+    "id": 8,
+    "question": "Who does the forcast?",
+    "answer": "Our dedicated team makes the forcast possible for you to enjoy and understand the weather!"
+  },
+  {
+    "id": 9,
+    "question": "There is a man outside with 1 eyeball. what should I do?",
+    "answer": "We recommend to call emergency services at 911"
+  },
+  {
+    "id": 10,
+    "question": "Why is the winter connected with the summer?",
+    "answer": "The winter isn't connected with the summer! It's just a different season!"
+  }
+]
