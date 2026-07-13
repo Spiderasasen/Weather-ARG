@@ -1,0 +1,38 @@
+.weather-prediction {
+    background: #d4d0c8; /* Windows 2000 dialog gray */
+    border-top: 2px solid #ffffff;
+    border-left: 2px solid #ffffff;
+    border-bottom: 2px solid #808080;
+    border-right: 2px solid #808080;
+
+    padding: 15px 20px;
+    margin: 20px auto;
+    width: 400px;
+
+    font-family: Tahoma, Verdana, sans-serif;
+    color: #000;
+}
+
+.weather-prediction h2 {
+    margin-top: 0;
+    font-size: 18px;
+    text-shadow: 1px 1px 0 #fff;
+    border-bottom: 1px solid #808080;
+    padding-bottom: 5px;
+}
+
+.weather-prediction div {
+    background: #e4e2dd;
+    padding: 6px 10px;
+    margin: 6px 0;
+
+    /* Raised bevel */
+    border-top: 2px solid #ffffff;
+    border-left: 2px solid #ffffff;
+    border-bottom: 2px solid #808080;
+    border-right: 2px solid #808080;
+}
+
+.weather-prediction div strong {
+    font-weight: bold;
+}
