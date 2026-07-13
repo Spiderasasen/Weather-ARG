@@ -1,11 +1,22 @@
 import {useState, useEffect} from "react";
-import month_and_teampature from "../data/month_and_tempature.json"
+import {generateForcast} from "../util/genorateForcast.ts";
 
 function Weather_Prediction() {
+    const [forcast, setForcast] = useState([]);
+
+    useEffect(() => {
+        setForcast(generateForcast())
+    }, [])
+
     return(
         <div>
-            <p>Weather Prediction</p>
+            <h2>7 Day Forcast</h2>
+            {forcast.map((day) => (
+                <div key={day.day}>
+                    <strong> Day {day.day}</strong>: {day.weather}, {day.temp}°F ({day.feels})
+                </div>
+            ))}
         </div>
-    )
+    );
 }
 export default Weather_Prediction;
