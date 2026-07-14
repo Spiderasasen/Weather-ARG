@@ -1,0 +1,36 @@
+.about-us-container {
+    background: #d4d0c8; /* Windows 2000 dialog gray */
+    border-top: 2px solid #ffffff;
+    border-left: 2px solid #ffffff;
+    border-bottom: 2px solid #808080;
+    border-right: 2px solid #808080;
+
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%;
+    font-family: Tahoma, Verdana, sans-serif;
+    color: #000;
+}
+
+.about-us-container h1 {
+    margin-top: 0;
+    font-size: 22px;
+    text-shadow: 1px 1px 0 #fff;
+    border-bottom: 1px solid #808080;
+    padding-bottom: 5px;
+}
+
+.about-us-text {
+    background: #e4e2dd;
+    padding: 10px 15px;
+    margin: 15px 0;
+
+    /* Raised bevel */
+    border-top: 2px solid #ffffff;
+    border-left: 2px solid #ffffff;
+    border-bottom: 2px solid #808080;
+    border-right: 2px solid #808080;
+
+    font-size: 14px;
+    line-height: 1.4;
+}
