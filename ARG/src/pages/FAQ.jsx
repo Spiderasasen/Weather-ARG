@@ -10,15 +10,17 @@ function FAQ() {
     return (
         <div>
             <Header/>
-            <div className="faq">
-                <h1>FAQ</h1>
-                {FAQ_data.map((item) => (
-                    <div key={item.id}>
-                        <h2>{item.question}</h2>
-                        <p>{item.answer}</p>
-                    </div>
-                ))}
-            </div>
+            <main>
+                <div className="faq">
+                    <h1>FAQ</h1>
+                    {FAQ_data.map((item) => (
+                        <div key={item.id}>
+                            <h2>{item.question}</h2>
+                            <p>{item.answer}</p>
+                        </div>
+                    ))}
+                </div>
+            </main>
             <Footer/>
         </div>
     )
