@@ -1,3 +1,4 @@
+/*Main Header*/
 header {
     background: #d4d0c8; /* Classic Windows 2000 gray */
     border-bottom: 2px solid #ffffff;
@@ -77,4 +78,88 @@ nav a {
     border-bottom: 2px solid #ffffff;
     border-right: 2px solid #ffffff;
     background: #d9d7d2;
+}
+
+/*ARG header*/
+/* Entire ARG header */
+.arg_header {
+    background: #1a1a1a; /* deep charcoal */
+    color: #c9c9c9; /* washed-out gray */
+    padding: 20px;
+    border-bottom: 2px solid #3a3a3a;
+
+    font-family: "Tahoma", "Verdana", sans-serif;
+
+    /* subtle noise texture */
+    background-image: url("https://www.transparenttextures.com/patterns/asfalt-dark.png");
+    background-blend-mode: multiply;
+}
+
+/* Username title */
+.arg_header h1 {
+    margin: 0 0 15px 0;
+    font-size: 20px;
+    color: #e0e0e0;
+
+    /* slight eerie glow */
+    text-shadow: 0 0 3px #550000;
+}
+
+/* Navigation container */
+.arg_header nav {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    padding: 0;
+}
+
+/* Each nav item */
+.arg_header nav li {
+    list-style: none;
+}
+
+/* Links */
+.arg_header nav a {
+    text-decoration: none;
+    color: #b8b8b8;
+    padding: 6px 12px;
+
+    /* flat horror-button look */
+    background: #222;
+    border: 2px solid #444;
+
+    /* slight bevel but darker */
+    border-top-color: #555;
+    border-left-color: #555;
+    border-bottom-color: #111;
+    border-right-color: #111;
+
+    transition: 0.15s ease;
+}
+
+/* Hover: subtle red tint */
+.arg_header nav a:hover {
+    background: #2a0000;
+    color: #e6e6e6;
+    border-color: #660000;
+}
+
+/* Active page (NavLink auto adds .active) */
+.arg_header nav a.active {
+    background: #3a0000;
+    color: #ffffff;
+
+    border-top-color: #880000;
+    border-left-color: #880000;
+    border-bottom-color: #200000;
+    border-right-color: #200000;
+}
+
+/* Clicked (sunken) */
+.arg_header nav a:active {
+    background: #1a0000;
+    border-top-color: #200000;
+    border-left-color: #200000;
+    border-bottom-color: #880000;
+    border-right-color: #880000;
 }

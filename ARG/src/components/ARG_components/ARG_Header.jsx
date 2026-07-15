@@ -1,8 +1,9 @@
 import {NavLink} from "react-router-dom";
+import "../../styles/header.css";
 
 function ARG_Header(){
     return(
-        <header>
+        <header className="arg_header">
             <h1>Employee Username: {localStorage.getItem("arg_username")}</h1>
             <nav>
                 <li>

@@ -1,14 +1,5 @@
-body, html {
-    margin: 0;
-    padding: 0;
-    background: #e4e2dd; /* Windows 2000 gray */
-    border-top: 2px solid #ffffff;
-    border-left: 2px solid #ffffff;
-    border-bottom: 2px solid #808080;
-    border-right: 2px solid #808080;
 
-}
-
+/*main*/
 main {
     padding: 20px;
     margin: 20px auto;
@@ -18,3 +9,62 @@ main {
     font-family: Tahoma, Verdana, sans-serif;
     color: #000;
 }
+
+/*arg_main*/
+.ARG_main {
+    background: #0d0d0d; /* deep charcoal black */
+    color: #c7c7c7; /* washed-out gray text */
+    padding: 30px;
+    min-height: 70vh;
+
+    /* grainy horror texture */
+    background-image: url("https://www.transparenttextures.com/patterns/asfalt-dark.png");
+    background-blend-mode: multiply;
+
+    /* oppressive inset shadow */
+    box-shadow: inset 0 0 25px #1a0000;
+
+    /* retro terminal vibe */
+    font-family: "Tahoma", "Verdana", sans-serif;
+    letter-spacing: 0.4px;
+}
+
+/* Headings */
+.ARG_main h1 {
+    color: #e0e0e0;
+    margin-bottom: 15px;
+
+    /* eerie red glow */
+    text-shadow: 0 0 4px #550000;
+}
+
+/* List styling */
+.ARG_main ul {
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.ARG_main li {
+    margin-bottom: 10px;
+    line-height: 1.5;
+
+    /* subtle red bullet vibe */
+    color: #c7c7c7;
+}
+
+/* Nested list */
+.ARG_main ul ul li {
+    color: #b0b0b0;
+    font-style: italic;
+}
+
+/* Final warning text */
+.ARG_main p {
+    margin-top: 20px;
+    font-size: 16px;
+    color: #d0d0d0;
+
+    /* faint red glow */
+    text-shadow: 0 0 3px #330000;
+}
+

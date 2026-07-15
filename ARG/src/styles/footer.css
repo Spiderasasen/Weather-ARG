@@ -60,3 +60,79 @@ footer {
 .footer-container a:hover {
     background: #f0efea;
 }
+
+
+/*arg footer*/
+.ARG_footer {
+    background: #0b0b0b; /* deep charcoal */
+    padding: 20px;
+    border-top: 2px solid #1a1a1a;
+
+    /* grainy horror texture */
+    background-image: url("https://www.transparenttextures.com/patterns/asfalt-dark.png");
+    background-blend-mode: multiply;
+
+    font-family: "Tahoma", "Verdana", sans-serif;
+    color: #c7c7c7;
+}
+
+.ARG_footer-container {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.ARG_questioning_locals {
+    background: #111; /* darker panel */
+    padding: 15px;
+
+    /* oppressive inset shadow */
+    box-shadow: inset 0 0 20px #1a0000;
+
+    /* subtle bevel but dark */
+    border-top: 2px solid #2a2a2a;
+    border-left: 2px solid #2a2a2a;
+    border-bottom: 2px solid #000;
+    border-right: 2px solid #000;
+
+    margin: 10px 0;
+}
+
+.ARG_questioning_locals p {
+    margin: 0 0 10px 0;
+    color: #d0d0d0;
+
+    /* faint red glow */
+    text-shadow: 0 0 3px #330000;
+}
+
+/* Link styling */
+.ARG_questioning_locals a {
+    display: inline-block;
+    padding: 6px 12px;
+    text-decoration: none;
+    color: #b8b8b8;
+
+    background: #1a1a1a;
+
+    /* dark bevel */
+    border-top: 2px solid #333;
+    border-left: 2px solid #333;
+    border-bottom: 2px solid #000;
+    border-right: 2px solid #000;
+
+    transition: 0.15s ease;
+}
+
+.ARG_questioning_locals a:hover {
+    background: #2a0000;
+    color: #e6e6e6;
+    border-color: #660000;
+}
+
+.ARG_questioning_locals a:active {
+    background: #1a0000;
+    border-top-color: #200000;
+    border-left-color: #200000;
+    border-bottom-color: #880000;
+    border-right-color: #880000;
+}
