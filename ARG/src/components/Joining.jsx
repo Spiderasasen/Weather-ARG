@@ -23,6 +23,18 @@ function Joining() {
         }
     });
 
+    //sign up handler
+    const handleSignUp = () => {
+        if(password !== confirmPassword){
+            alert("Passwords do not match");
+            return;
+        }
+        localStorage.setItem("arg_username", username);
+        localStorage.setItem("arg_password", password);
+        setLogin(true);
+        setAccount(true);
+    }
+
     //sign in handler
     const handleSignIn = () => {
         const savedUser = localStorage.getItem("arg_username");
@@ -51,20 +63,20 @@ function Joining() {
                 (<div className="has-acount">
                     <h3>Please sign in...</h3>
                     <div>
-                        <input type="text" placeholder="Username" />
-                        <input type="password" placeholder="Password" />
+                        <input type="text" placeholder="Username" value={username} onChange={(e) => setUsername(e.target.value)} />
+                        <input type="password" placeholder="Password" value={password} onChange={(e) => setPassword(e.target.value)} />
                     </div>
-                    <button>Sign In</button>
+                    <button onClick={handleSignIn}>Sign In</button>
                     <button onClick={() => setAccount(false)}>Sign Up</button>
                 </div>) :
                 (<div className="no-account">
                     <h3>Don't have an account? Please Sign Up!</h3>
                     <div>
-                        <input type="text" placeholder="Username" />
-                        <input type="password" placeholder="Password" />
-                        <input type="password" placeholder="Confirm Password" />
+                        <input type="text" placeholder="Username" value={username} onChange={(e) => setUsername(e.target.value)}/>
+                        <input type="password" placeholder="Password" value={password} onChange={(e) => setPassword(e.target.value)}/>
+                        <input type="password" placeholder="Confirm Password" value={confirmPassword} onChange={(e) => setConfirmPassword(e.target.value)}/>
                     </div>
-                    <button>Sign Up</button>
+                    <button onClick={handleSignUp}>Sign Up</button>
                     <button onClick={() => setAccount(true)}>Sign In</button>
                 </div>)
             }
