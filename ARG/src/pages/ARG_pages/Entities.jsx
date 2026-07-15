@@ -1,7 +1,16 @@
+import ARG_Header from "../../components/ARG_components/ARG_Header.jsx";
+import ARG_Footer from "../../components/ARG_components/ARG_Footer.jsx";
+import Entitie_Card from "../../components/ARG_components/Entitie_Card.jsx";
+import "../../styles/main.css"
+
 function Entities() {
     return(
-        <div>
-            <h1>Entities</h1>
+        <div className="ARG_main">
+            <ARG_Header />
+            <main>
+                <Entitie_Card />
+            </main>
+            <ARG_Footer/>
         </div>
     );
 }

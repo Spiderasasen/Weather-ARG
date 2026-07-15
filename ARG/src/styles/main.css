@@ -30,7 +30,7 @@ main {
 }
 
 /* Headings */
-.ARG_main h1 {
+.ARG_main h1, .ARG_main h2, .ARG_main h3, .ARG_main h4, .ARG_main h5, .ARG_main h6 {
     color: #e0e0e0;
     margin-bottom: 15px;
 
