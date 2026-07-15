@@ -1,0 +1,113 @@
+/* Main container */
+.joining-container {
+    background: #d4d0c8; /* Windows 2000 dialog gray */
+    border-top: 2px solid #ffffff;
+    border-left: 2px solid #ffffff;
+    border-bottom: 2px solid #808080;
+    border-right: 2px solid #808080;
+
+    padding: 20px;
+    margin: 30px auto;
+    width: 400px;
+
+    font-family: Tahoma, Verdana, sans-serif;
+    color: #000;
+}
+
+/* Login success container */
+.login-container {
+    background: #d4d0c8;
+    border-top: 2px solid #ffffff;
+    border-left: 2px solid #ffffff;
+    border-bottom: 2px solid #808080;
+    border-right: 2px solid #808080;
+
+    padding: 20px;
+    margin: 30px auto;
+    width: 400px;
+
+    font-family: Tahoma, Verdana, sans-serif;
+    text-align: center;
+}
+
+.login-container a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 6px 12px;
+    background: #e4e2dd;
+    text-decoration: none;
+    color: #000;
+
+    /* Raised bevel */
+    border-top: 2px solid #ffffff;
+    border-left: 2px solid #ffffff;
+    border-bottom: 2px solid #808080;
+    border-right: 2px solid #808080;
+}
+
+.login-container a:active {
+    border-top: 2px solid #808080;
+    border-left: 2px solid #808080;
+    border-bottom: 2px solid #ffffff;
+    border-right: 2px solid #ffffff;
+    background: #d9d7d2;
+}
+
+/* Section headers */
+.joining-container h3 {
+    margin-top: 0;
+    font-size: 18px;
+    text-shadow: 1px 1px 0 #fff;
+    border-bottom: 1px solid #808080;
+    padding-bottom: 5px;
+}
+
+/* Input fields */
+.joining-container input {
+    display: block;
+    width: 90%;
+    margin: 10px auto;
+    padding: 6px;
+
+    background: #ffffff;
+    border: 2px solid #808080;
+    font-family: Tahoma, Verdana, sans-serif;
+}
+
+/* Buttons */
+.joining-container button {
+    display: inline-block;
+    margin: 10px 5px;
+    padding: 6px 12px;
+
+    background: #e4e2dd;
+    color: #000;
+    font-family: Tahoma, Verdana, sans-serif;
+    cursor: pointer;
+
+    /* Raised bevel */
+    border-top: 2px solid #ffffff;
+    border-left: 2px solid #ffffff;
+    border-bottom: 2px solid #808080;
+    border-right: 2px solid #808080;
+}
+
+.joining-container button:active {
+    border-top: 2px solid #808080;
+    border-left: 2px solid #808080;
+    border-bottom: 2px solid #ffffff;
+    border-right: 2px solid #ffffff;
+    background: #d9d7d2;
+}
+
+/* Sign-in and sign-up panels */
+.has-acount,
+.no-account {
+    background: #e4e2dd;
+    padding: 15px;
+
+    border-top: 2px solid #ffffff;
+    border-left: 2px solid #ffffff;
+    border-bottom: 2px solid #808080;
+    border-right: 2px solid #808080;
+}
