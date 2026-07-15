@@ -2,6 +2,26 @@ import entities from "../../data/entities.json"
 import {useEffect, useState} from "react";
 
 function Entitie_Card() {
+    const [loreText, setLoreText] = useState({});
+
+    useEffect(() => {
+        async function loadLore() {
+            const results = {};
+
+            for(const entity of entities) {
+                try {
+                    const text = await fetch(entity.lore).then(r => r.text());
+                    results[entity.id] = text;
+                }
+                catch{
+                    results[entity.id] = "Error loading lore";
+                }
+            }
+            setLoreText(results);
+        }
+        loadLore();
+    }, [])
+
     return(
         <div>
             {entities.map((entity) => (
@@ -14,7 +34,7 @@ function Entitie_Card() {
                         <br/>
                         <em>{entity.How_to_survive}</em>
                     </p>
-                    <p>{entity.lore}</p>
+                    <p>{loreText[entity.id] || "Loading Lore..."}</p>
                 </div>
             ))}
         </div>

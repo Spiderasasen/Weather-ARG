@@ -5,6 +5,6 @@
     "active": "Summer",
     "summary": "The Sun will start melting the skin off of people during the summer months. It works along side the humid fallower. On average the person only has about 5 minutes to live, but after it rains, the person will have 10 minutes to live. If it hasn't rained in 4 weeks, the person will die instantly.",
     "How_to_survive": "Stay underground or water the house to keep it cool.",
-    "lore": "../../assets/sun_lore.txt"
+    "lore": "/sun_lore.txt"
   }
 ]
